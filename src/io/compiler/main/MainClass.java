@@ -29,7 +29,8 @@ public class MainClass {
 			parser.exibirVar();
 		}
 		catch(Exception ex) {
-			ex.printStackTrace();
+			System.err.println("Error: "+ex.getMessage());
+			//ex.printStackTrace();
 		}
 	}
 }

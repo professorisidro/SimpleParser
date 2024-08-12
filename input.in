@@ -1,5 +1,13 @@
 programa
     declare a, b, c : number;
     declare x, y, z : text;
-	2 + 3.14 - 5 * 8.56 / a -	b *	c ;
+    inicio
+    escreva("Hello World");
+    leia(x);
+    leia(a);
+    escreva(a);
+	a := 2 + 3.14 - 5 * 8.56 / a - x *	a;
+	escreva("O Resultado vale");
+	escreva(a);
+	fim
 fimprog
