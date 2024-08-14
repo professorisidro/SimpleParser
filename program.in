@@ -1,0 +1,27 @@
+programa meuPrograma
+	declare a,b: number;
+	declare x,y: text;
+	inicio
+		escreva("Hello World");
+		escreva("Fim do programa");
+		leia(a);
+		leia(b);
+		escreva(a);
+		se (a > 5) entao
+			escreva("maior que 5");
+		senao
+		    escreva("menor que 5");
+		fimse
+		
+		escreva("oi agora vamos testar outro");
+		se (b >= 0) entao
+		   escreva("b positivo");
+		senao
+		   escreva("b negativo");
+		fimse
+		
+		
+	fim
+fimprog
+
+			
